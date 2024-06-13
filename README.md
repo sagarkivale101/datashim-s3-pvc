@@ -2,6 +2,8 @@ A Kubernetes Framework to provide easy access to S3 and NFS Datasets within pods
 
 https://github.com/datashim-io/datashim/tree/master
 
+https://www.youtube.com/watch?v=gGT5-asERvc&t=144s
+
 steps
 
 ---

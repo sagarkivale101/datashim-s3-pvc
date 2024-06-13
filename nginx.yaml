@@ -30,7 +30,7 @@ spec:
     type: "COS"
     accessKeyID: "access_key_id"
     secretAccessKey: "access_key"
-    endpoint: "https://s3.eu-west-1.amazonaws.com"
+    endpoint: "https://s3.ap-south-1.amazonaws.com"
     bucket: "bucket_name"
     readonly: "false" #OPTIONAL, default is false  
     region: "ap-south-1" #OPTIONAL
