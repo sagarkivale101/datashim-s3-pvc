@@ -28,9 +28,25 @@ metadata:
 spec:
   local:
     type: "COS"
-    accessKeyID: "access_key_id"
-    secretAccessKey: "access_key"
-    endpoint: "https://s3.ap-south-1.amazonaws.com"
-    bucket: "bucket_name"
+    accessKeyID: "accessKeyID"
+    secretAccessKey: "secretAccessKey"
+    endpoint: "https://blr1.digitaloceanspaces.com"
+    bucket: "test-s3/test"
     readonly: "false" #OPTIONAL, default is false  
     region: "ap-south-1" #OPTIONAL
+
+
+# apiVersion: datashim.io/v1alpha1
+# kind: Dataset
+# metadata:
+#   name: example-dataset
+# spec:
+#   local:
+#     type: "COS"
+#     accessKeyID: "aws_accessKeyID"
+#     secretAccessKey: "aws_secretAccessKey"
+#     endpoint: "https://s3.ap-south-1.amazonaws.com"
+#     bucket: "bucket_name/test"
+#     readonly: "false" #OPTIONAL, default is false  
+#     region: "ap-south-1" #OPTIONAL
+

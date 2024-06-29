@@ -20,3 +20,11 @@ kubectl apply nginx.yaml -n dlf
 alternate solution
 
 https://github.com/yandex-cloud/k8s-csi-s3
+
+
+
+---
+
+for creation of folder in s3 use helm
+
+helm install --namespace=dlf --create-namespace datashim datashim/datashim-charts --version 0.4.0  
